@@ -1,0 +1,301 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html, body
+{
+  height: 100%;
+}
+
+body
+{
+  height: 100%;
+  font-size: 90%;
+  background: #000 url(https://fedoraproject.org/static/images/border-left.png) 0 0 repeat-y;
+}
+
+a img
+{
+  border: none;
+}
+
+#wrapper
+{
+  margin-left: 18px;
+  font: normal 2.3ex/1.5 sans-serif;
+  min-height: 100%;
+  padding-right: 18px;
+  background: url(img/istockphoto-470721440-612x612.jpg);
+  z-index: 2;
+}
+
+#head
+{
+  border-top: 10px solid #337ACC;
+  padding: 1ex 2ex 17px;
+  background: rgb(255, 255, 245) url(https://fedoraproject.org/static/images/line.png) 0 100% repeat-x;
+  position: relative;
+}
+
+#head h1 a
+{
+  display: inline-block;
+  background: url(img/DCC-new.jpg) center no-repeat;
+  height: 94px;
+  border-radius: 5px;
+}
+
+#head img{
+  border-radius: 10px;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+#head h2 {
+  float: right;
+  position: relative;
+  bottom: 95px;
+  right: 12.5%;
+  font-family: 'Nova Flat';
+  font-size: 64px;
+  color: #337ACC;
+}
+
+#head p {
+  float: right;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+#head button{
+  color: #fff;
+  background-color: #337ACC;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-size: 110%;
+  margin-right: 5px;
+}
+
+#head button:hover{
+  cursor: pointer;
+}
+
+#content
+{
+  margin: 0 2ex;
+  padding: 1ex 1ex 120px;
+  color: #eee;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  min-height: 90vh;
+  background-image: url(img/AlD40c.jpg);
+  background-size:cover;
+}
+
+#content h2
+{
+  font-size: 3.25ex;
+  padding-top: 4%;
+  padding-left: 5%;
+}
+
+#content h2 div {
+  font-size: 1ex;
+  font-weight: normal;
+}
+
+#content h3
+{
+  color: #337acc;
+  margin: 1.5ex 0;
+  font-size: 2.5ex;
+  padding-left: 5%;
+}
+
+#content p
+{
+  margin: 1ex 5ex 1ex 0;
+  padding-left: 10%;
+}
+
+/* Not index */
+
+#outros-content, 
+#projetos-content,
+#contatos-content,
+#curriculo-content
+{
+  margin: 0 0 0 25ex;
+  padding: 1ex 1ex 120px 0;
+  color: #eee;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  min-height: 90vh;
+  background: url(img/AlD40c.jpg) no-repeat;
+}
+
+#outros-content,
+#projetos-content,
+#contatos-content,
+#curriculo-content
+{
+  padding-top: 4%;
+  padding-left: 5%;
+}
+
+#outros-content h2,
+#contatos-content h2,
+#curriculo-content h2
+{
+  color: #337acc;
+}
+
+#outros-content p,
+#projetos-content p,
+#contatos-content p,
+#curriculo-content p
+{
+  margin: 1ex 5ex 1ex 0;
+  padding-left: 5%;
+}
+
+#outros-content a,
+#projetos-content a,
+#contatos-content a
+{
+  text-decoration: none;
+  color: #54bcec;
+}
+
+#outros-content span,
+#curriculo-content span
+{
+  font-size: 80%;
+  color: lightgreen;
+}
+
+#footer
+{
+  position: relative;
+  font: normal 1.5ex/1.5 sans-serif;
+  clear: both;
+  text-align: center;
+  background: #fff url(https://fedoraproject.org/static/images/line-bottom.png) 0 0 repeat-x;
+  margin: -10px 0 0;
+  border-bottom: 10px solid #337ACC;
+  height: 50px;
+  color: #929292;
+}
+
+#bottom
+{
+  background: #eee url(img/istockphoto-470721440-612x612.jpg) 100% 0 repeat-y;
+  margin-left: 18px;
+}
+
+#footer ul
+{
+  list-style: none;
+}
+
+#footer li
+{
+  display: inline;
+  border-left: 1px solid #AAAAAA;
+  padding: 0 0.75ex;
+  margin-left: -1px;
+}
+
+#footer li.first
+{
+  border-left: none;
+}
+
+#footer a
+{
+  color: #223344;
+  text-decoration: none;
+}
+
+#footer a:hover
+{
+  color: #337ACC;
+}
+
+#footer .copy
+{
+  padding-top: 3ex;
+}
+
+.dropdown, .dropdown-button {
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dropdown-button {
+  border: none;
+  padding: 14px 18px 20px 10px;
+  color: #fff;
+}
+
+.dropdown-button:hover{
+  cursor: pointer;
+  color: #337ACC;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  left: 120px;
+  background-color: #1a1a1a;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 200px;
+  height: 140px;
+  border-radius: 5px;
+  line-height: 120%;
+}
+
+.dropdown-content a {
+  padding: 0.3% 5% 0.3% 0.5%;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.dropdown-content a:hover {
+  background-color: #337ACC;
+  color: black;
+}
+
+.dropdown-button:hover .dropdown-content {
+  display: block;
+}
+
+#second-content{
+  width: 200px;
+  height: 90px;
+  top: 21%;
+}
+
+.contatos {
+  display: flex;
+  position: relative;
+  left: 80px;
+}
+
+.contatos img {
+  position: relative;
+  left: 15px;
+}

@@ -1,0 +1,78 @@
+#sidebar
+{
+  float: left;
+  width: 25ex;
+  margin: 2ex 0;
+  background: black;
+  margin-left: 16px;
+  border-radius: 5px;
+}
+
+#content
+{
+  margin-left: 25ex!important;
+}
+
+#content ul
+{
+  list-style: square;
+  margin: 1ex 3ex;
+  line-height: 1;
+}
+
+#content table
+{
+  border-collapse: collapse;
+}
+
+#content th, #content td
+{
+  border: 1px solid #DDDDDD;
+  padding: 0.5ex 2ex;
+}
+
+.nav
+{
+  margin: 0 10px;
+  padding: 0 1.5ex;
+}
+
+.nav h2
+{
+  border-bottom: 1px dotted #AAAAAA;
+  color: #444444;
+  font-size: 1.5ex;
+  margin: 2ex 0 1ex;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.nav ul
+{
+  list-style: url(https://fedoraproject.org/static/images/arrow.png);
+  margin-left: 15px;
+}
+
+.nav li
+{
+  margin: 0.25ex 1ex;
+  color: #777777;
+  font-size: 1.5ex;
+}
+
+.nav a
+{
+  font-weight: bold;
+  margin-right: 0.75ex;
+  color: #729FCF;
+}
+
+#content h3
+{
+  margin: 0!important;
+}
+
+#pageLogin
+{
+  float: right;
+}
